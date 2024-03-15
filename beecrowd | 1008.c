@@ -3,14 +3,14 @@
 int main(void)
 
 {
-    int no, wh;
-    double am, sa;
+    int c, d;
+    double a, b;
 
-    scanf("%i %i %lf", &no, &wh, &am);
+    scanf("%i %i %lf", &c, &d, &a);
 
-    sa=wh*am;
+    b=d*a;
 
-    printf("NUMBER = %i\nSALARY = U$ %.2lf\n", no, sa);
+    printf("NUMBER = %i\nSALARY = U$ %.2lf\n", c, b);
 
     return 0;
 }
