@@ -1,15 +1,8 @@
 #include <stdio.h>
-
-int main(void)
-
-{
-    int a, b, x;
-
-    scanf("%i %i", &a, &b);
-
-    x=a*b;
-
-    printf("PROD = %i\n", x);
-
+int main(void){
+    int r, s, sum;
+    scanf("%i %i", &r, &s);
+    sum=r+s;
+    printf("SOMA = %i\n", sum);
     return 0;
 }
